@@ -9,9 +9,10 @@ public class TestString6 {
         int count = 0;
         int index = str.indexOf(key);
         while (index >= 0) {
-            index = str.indexOf(key, index + 1);
             count++;
+            index = str.indexOf(key, index + 1);
         }
+
         System.out.println("count = " + count);
     }
 
