@@ -2,7 +2,8 @@ package nested.anonymous.ex;
 
 import java.util.Random;
 
-public class Ex0RefMainV0 {
+// 익명 클래스 사용
+public class Ex0RefMainV3 {
 
     private static void hello(Process process) {
         System.out.println("프로그램 시작");
