@@ -1,7 +1,5 @@
 package nested.test.ex1;
 
-import java.awt.print.Book;
-
 public class Library {
 
     private final Book[] books;
@@ -26,10 +24,10 @@ public class Library {
         }
     }
 
-    static class Book {
+    private static class Book {
         String title;
         String author;
-        
+
         public Book(String title, String author) {
             this.title = title;
             this.author = author;
