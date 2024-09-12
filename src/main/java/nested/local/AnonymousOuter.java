@@ -1,6 +1,6 @@
 package nested.local;
 
-public class LocalOuterV2 {
+public class AnonymousOuter {
 
     private int outInstanceVar = 3;
 
@@ -24,7 +24,7 @@ public class LocalOuterV2 {
     }
 
     public static void main(String[] args) {
-        LocalOuterV2 localOuter = new LocalOuterV2();
+        AnonymousOuter localOuter = new AnonymousOuter();
         localOuter.process(2);
     }
 
