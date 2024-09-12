@@ -19,8 +19,8 @@ public class Library {
 
     public void showBooks() {
         System.out.println("== 책 목록 출력 ==");
-        for (Book book : books) {
-            System.out.println("도서 제목: " + book.title + ", 저자:" + book.author);
+        for (int i = 0; i < bookCount; i++) {
+            System.out.println("도서 제목: " + books[i].title + ", 저자: "+ books[i].author);
         }
     }
 
